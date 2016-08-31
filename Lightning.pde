@@ -1,4 +1,4 @@
-//
+//variables
 int startX = 0;
 int startY = 150;
 int endX = 0;
@@ -8,7 +8,7 @@ void setup()
 {
   	size(300,300);
   	background(0);
-  	strokeWeight(25);
+  	strokeWeight(0.5);
 };
 
 void draw()
@@ -32,3 +32,16 @@ void mousePressed()
 	endY = 150;
 };
 
+
+
+
+// void keyPressed ()
+{
+	// if (key == CODED)
+	{
+		// if (keyCode == DOWN) 
+		{
+			// background(0);
+		}
+	}
+};
