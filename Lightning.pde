@@ -1,5 +1,5 @@
 //variables
-int startX = 0;
+int startX = 75;
 int startY = 150;
 int endX = 0;
 int endY = 150;
@@ -22,11 +22,19 @@ void draw()
 		startX = endX;
 		startY = endY;
 	}
+
+	noStroke();
+	fill(255,0,0);
+	ellipse(54,135,20,20);
+	stroke(255,255,255);
+	line(54,144,54,165);
+	line(54,153,70,150);
+
 };
 
 void mousePressed()
 {
-	startX = 0;
+	startX = 70;
 	startY = 150;
 	endX = 0;
 	endY = 150;
@@ -35,13 +43,13 @@ void mousePressed()
 
 
 
-// void keyPressed ()
+ void keyPressed ()
 {
-	// if (key == CODED)
+	 if (key == CODED)
 	{
-		// if (keyCode == DOWN) 
+		 if (keyCode == DOWN) 
 		{
-			// background(0);
+			 background(0);
 		}
 	}
 };
