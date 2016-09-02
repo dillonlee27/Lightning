@@ -7,12 +7,13 @@ int endY = 150;
 void setup()
 {
   	size(300,300);
-  	background(0);
-  	strokeWeight(0.5);
+  	
+  	strokeWeight(0.9);
 };
 
 void draw()
 {
+	background(0);
 	stroke((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
 	while (endX < 300)
 	{
@@ -23,12 +24,17 @@ void draw()
 		startY = endY;
 	}
 
+
 	noStroke();
 	fill(255,0,0);
 	ellipse(54,135,20,20);
 	stroke(255,255,255);
 	line(54,144,54,165);
 	line(54,153,70,150);
+	line(54,165,50,178);
+	line(54,165,58,180);
+
+
 
 };
 
@@ -43,13 +49,13 @@ void mousePressed()
 
 
 
- void keyPressed ()
-{
-	 if (key == CODED)
-	{
-		 if (keyCode == DOWN) 
-		{
-			 background(0);
-		}
-	}
-};
+//  void keyPressed ()
+// {
+// 	 if (key == CODED)
+// 	{
+// 		 if (keyCode == DOWN) 
+// 		{
+// 			 background(0);
+// 		}
+// 	}
+// };
