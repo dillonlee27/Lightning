@@ -9,7 +9,7 @@ void setup()
   	size(300,300);
   	
   	strokeWeight(0.9);
-};
+}
 
 void draw()
 {
@@ -36,7 +36,7 @@ void draw()
 
 
 
-};
+}
 
 void mousePressed()
 {
@@ -44,7 +44,7 @@ void mousePressed()
 	startY = 150;
 	endX = 0;
 	endY = 150;
-};
+}
 
 
 
