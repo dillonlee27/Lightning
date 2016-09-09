@@ -8,7 +8,7 @@ void setup()
 {
   	size(300,300);
   	
-  	strokeWeight(0.9);
+  	//strokeWeight(0.9);
 }
 
 void draw()
@@ -45,17 +45,3 @@ void mousePressed()
 	endX = 0;
 	endY = 150;
 }
-
-
-
-
-//  void keyPressed ()
-// {
-// 	 if (key == CODED)
-// 	{
-// 		 if (keyCode == DOWN) 
-// 		{
-// 			 background(0);
-// 		}
-// 	}
-// }
